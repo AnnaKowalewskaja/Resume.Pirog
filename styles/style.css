@@ -131,6 +131,8 @@ font-size: 35px;
 .main{
     background-color: rgba(169, 169, 169, 0.1);;
     cursor: default;
+    min-height: 900px;
+    height: 100%;
 }
 .fon-white{
     background-color: #fff;
