@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.main-container{
+    margin:0px 10% ;
+   width: 60%;
+   min-width: 800px;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.navigation-links{
+    display: flex;
+    justify-content:center;
+}
+
+.navigation-link{
+    padding: 20px 40px ;
+    
+}
+
+.buttons-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.resume-title{
+    display: inline-block;
+    margin-right: 30px;
+font-size: 35px;
+
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.edit-resume-button{
+    padding: 10px 20px;
+    
+}
+.displ-row{
+    display: block;
+}
+
+.action-button{
+    border-radius: 1px;
+    border:none;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.action-button:hover{
+    background-color: #DAA520;
+    color:ghostwhite;
+}
+.action-button:focus {
+    outline:none;
+}
+.hover-red:hover{
+    color:HotPink;
+}
+.menu-button{
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.faIcon-margin{
+    margin-right: 5px;
+}
+.photo-resume{
+    max-width: 300px;
+    width: 100%;
+}
+.displ-col{
+    display: flex;
+    flex-direction: column;
+}
+.text-person{
+    font-weight: normal;
+
+}
+.heading{
+    text-align: center;
+    padding:15px 3px;
+    font-size: 18px;
+}
+
+.criteria-text{
+    font-size: 16px;
+    
+    
+}
+
+.letter-spacing-small{
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+}
+.displ-flx-rw{
+    display: flex;
+    flex-direction: row;
+}
+.mrgn-lft{
+    margin-left: 20px;
+}
+.mrgn-rght{
+    margin-right: 20px;
+    
+}
+.mrgn-tp{
+    margin-top: 25px;
+}
+.mrgn-tp-smll{
+    margin-top: 15px;
+}
+.mrgn-lft-bg{
+    margin-left: 30px;
+}
+.pddng-btm{
+    padding-bottom:30px ;
+}
+.main{
+    background-color: rgba(169, 169, 169, 0.1);;
+    cursor: default;
+}
+.fon-white{
+    background-color: #fff;
+}
+.dpl-inln{
+    display: flex;
+}
+.ul-sqr{
+    list-style: square;       
+}
+.about-details-size{
+    max-width: 900px;
+    width: 80%;
+}
